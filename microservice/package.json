@@ -1,0 +1,14 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "Microservice for CRUD operations on users",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "amqplib": "^0.7.1"
+  }
+}
